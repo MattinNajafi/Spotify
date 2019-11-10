@@ -1,0 +1,299 @@
+@media (max-width:48em) {
+
+    body{
+        margin:0;
+        align-content: center;
+    }
+    
+    
+    section{
+        background-image: url(https://svgshare.com/i/6jW.svg), linear-gradient(180deg, #f15f8e, #f7c04f);
+        margin:-35% 0;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100em;
+        min-height: 100vh;
+        align-content: center;
+        background-size:cover;
+        }
+    
+    header {
+        background-color: black;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        height:5rem;
+        display: flex;
+        align-items: center;
+        
+      }
+      
+      header img{
+        padding-left: 5rem; 
+      }
+      
+      .navbar {
+        height: 5rem;
+        width: 100%;
+        align-items: center;
+        display:flex;
+        justify-content: flex-end;
+      }
+      label {
+        display:block;
+        color:white;
+        margin-right: 1em;
+        font-size:2em;
+        font-weight: 400;
+        cursor: pointer;
+      }
+      .burgermenu {
+        margin: 300px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        background-color:black;
+        width: auto;
+        display:none;
+      }
+      
+      .burgermenu a {
+        display:block;
+        text-decoration: none;
+        margin:0; 
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        padding: 28px 17px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    #toggle:checked + .burgermenu {
+      display:block;
+    }
+    
+    #toggle{
+      display: none;
+    }
+
+    .list-item3::after {
+        content: "|";
+        color:white;
+        display:none;
+    }
+
+.midbox{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40em;
+    
+}
+.midbox h1 {
+    font-size: 4rem;
+    color:white;
+    padding: 0 0 0.5rem 0;
+    font-weight: 600;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.midbox h4 {
+    margin:0;
+    color:white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom:0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+ background-color:#1db954;
+ box-shadow: none;
+ color:white;
+ margin-top: 1rem;
+ letter-spacing: 2px;
+ text-align: center;
+ font-size: 1rem;
+ cursor: pointer;
+ border-radius: 500px;
+ padding: 18px 48px 18px 48px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration: none;
+ font-weight: bolder;
+}
+
+
+.button:hover {
+    background-color: green;
+}
+
+footer{
+    background: black;
+    width: 100%;
+    align-items: center;
+   
+}
+
+.wrapper {
+    padding: 80px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left:1rem;
+    padding-right: 5rem;
+    }
+.bottom{
+    display: flex;
+
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    
+}
+
+footer ul li {
+    padding: 3px 0 15px 0;
+    color:white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+footer ul li a {
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-titles {
+    font-size: 13px;
+    color: #919496;
+    margin: 0 0 20px 0;
+}
+
+.socialmedia {
+    display: block;
+    padding-right: 7px;
+    width: auto; 
+    padding-left: 0;
+}
+
+
+
+.country{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    align-items: center;
+}
+
+.country > img {
+    height: 18px;
+}
+
+.country p {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+    margin:0;
+}
+
+.baseline {
+    display: flex;
+    padding-right: 1rem;
+    justify-content: space-between;
+    
+}
+
+.bottom_menu{
+    display: flex;
+    padding-left: 1rem;
+    padding-bottom: 2.5rem;
+    margin: 0;
+
+}
+
+.bottom_menu span{
+    flex-direction: row;
+    padding-left: 0;
+    margin:0px;
+}
+
+.bottom_menu a{
+    padding: 0px 17px;
+    font-size: 12px;
+    font-weight: normal;
+    color: grey;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-item1 a {
+    padding-left: 1rem;
+}
+
+.bottom_menu2 {
+    padding-right: 0;
+}
+
+.bottom_menu2 p{
+    display: flex;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-top:7px;
+}
+
+.breakpoint1 {
+    display: normal;
+}
+
+.breakpoint2 {
+    display:none;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #222326;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #222326;
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    background: #222326;
+    color: white;
+  }
+
+}
+
